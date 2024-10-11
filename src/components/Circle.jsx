@@ -38,7 +38,7 @@ export const Circle = () => {
           }}
         >
           {`
-  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <svg width="100" height="100">
     <rect width="100%" height="100%" fill="azure" stroke="black"/>
     <circle cx="${cx}" cy="${cy}" r="${r}" stroke="red" fill="transparent" stroke-width="5"/>
   </svg>
@@ -48,7 +48,7 @@ export const Circle = () => {
 
       <h3>Output</h3>
       <div className="output-container">
-        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+        <svg width="100" height="100">
           <rect width="100%" height="100%" fill="azure" stroke="black"/>
           <circle
             cx={cx}

@@ -42,7 +42,7 @@ export const Ellipse = () => {
     <div className="code-wrapper">
       <code>
         {`
-  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <svg width="100" height="100">
     <rect width="100%" height="100%" fill="azure" stroke="black"/>
     <ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" stroke="red" strokeWidth={5} fill="none"/>
   </svg>
@@ -52,7 +52,7 @@ export const Ellipse = () => {
 
     <h3>Output</h3>
       <div className="output-container">
-        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+        <svg width="100" height="100">
           <rect width="100%" height="100%" fill="azure" stroke="black"/>
           <ellipse cx={cx} cy={cy} rx={rx} ry={ry} stroke="red" strokeWidth={5} fill="none"/>
         </svg>

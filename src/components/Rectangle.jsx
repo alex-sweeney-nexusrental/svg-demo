@@ -63,7 +63,7 @@ export const Rectangle = () => {
           }}
         >
           {`
-  <svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}">
+  <svg width="${svgWidth}" height="${svgHeight}">
     <rect width="${rectWidth + "%"}" height="${
             rectHeight + "%"
           }" fill="${fill}" stroke="${stroke}" />
@@ -74,8 +74,7 @@ export const Rectangle = () => {
 
       <h3>Output</h3>
       <div className="output-container">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
+        <svg 
           width={svgWidth}
           height={svgHeight}
         >

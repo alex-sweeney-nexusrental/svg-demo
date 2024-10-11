@@ -6,7 +6,7 @@ export const Face = () => {
 
   return (
     <div>
-      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+      <svg width="100" height="100">
           <rect width="100%" height="100%" fill="azure" stroke="black"/>
           <circle cx="50" cy="50" r="44" fill="yellow" stroke-width="5"/>
           <ellipse cx="65" cy="40" rx="5" ry="15" fill="black" stroke-width="1"/>
